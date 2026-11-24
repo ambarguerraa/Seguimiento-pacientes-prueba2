@@ -33,7 +33,7 @@ a{color:inherit}
  1. PORTADA. Conserva la composición inicial en la aurora azul/verde.
  ===================================================== */
 body.landing{isolation:isolate;position:relative;min-height:100svh;background:var(--azul);color:var(--crema)}
-.aurora{position:fixed;z-index:-1;inset:0;overflow:hidden;background:var(--azul) url('assets/aurora-poster.jpg') center/cover no-repeat}
+.aurora{position:fixed;z-index:-1;inset:0;overflow:hidden;background:var(--azul) url('aurora-poster.jpg') center/cover no-repeat}
 .aurora__video{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none}
 .site-header{position:absolute;top:calc(79 * var(--u));left:6%}
 .municipal-logo{display:block;width:calc(181 * var(--u));height:auto}
@@ -68,7 +68,7 @@ body.landing{isolation:isolate;position:relative;min-height:100svh;background:va
 .return-link{display:inline-flex;align-items:center;justify-content:center;gap:3px;color:#545f9f;text-decoration:none;font-size:12px;margin-top:9px}
 .return-link:hover{text-decoration:underline}
 .return-link .icon{width:14px;height:14px}
-.login-art{aspect-ratio: 1/1.02;width:min(100%,555px);justify-self:center;border-radius:32px;background:#0522a8 url('assets/imagen-acceso.webp') center/100% 100% no-repeat;box-shadow:none}
+.login-art{aspect-ratio: 1/1.02;width:min(100%,555px);justify-self:center;border-radius:32px;background:#0522a8 url('imagen-acceso.webp') center/100% 100% no-repeat;box-shadow:none}
 /* =====================================================
  3. PLATAFORMA: cabecera y menú general.
  ===================================================== */
